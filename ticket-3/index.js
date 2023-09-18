@@ -1,7 +1,7 @@
 function countNumberOfNinesInNumber(number) {
   let count = 0;
 
-  for (let i = 0; i < number.length; i++) {
+  for (let i = 0; i < number.toString().length; i++) {
     const digit = number[i];
     if (9 === digit) {
       count++;
@@ -9,7 +9,7 @@ function countNumberOfNinesInNumber(number) {
     return count;
   }
 }
-countNumberOfNinesInNumber();
+
 console.log(countNumberOfNinesInNumber(99.99));
 
 // function countNumberOfNinesInNumber(number) {
