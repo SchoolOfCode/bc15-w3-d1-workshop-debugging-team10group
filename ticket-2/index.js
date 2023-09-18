@@ -10,6 +10,6 @@ const currentInitial = currentName.at(0);
 initials += currentInitial;
 }
 
-Return initials;
-)
+return initials;
+
 
